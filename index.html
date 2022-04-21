@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="img/icone.ico">
+    <title> Inscrição </title>   
+</head>
+
+<body>
+<form>
+    <div>
+    <h2 id="titulo"> Processo Seletivo </h2> <br>
+    <h3 id="subtitulo"> Ficha de Inscrição </h3> <br>
+    </div>
+
+    <fieldset>
+        <legend><strong> Dados pessoais </legend> <br>
+        Nome: <input type="text" required> <br> <br>
+        Idade: <input type="text" required> <br> <br>
+        E-mail: <input type="email" required> <br> <br>
+        Gênero: </strong> <input type="radio" name="genero" value="masculino" required>
+        <label>Masculino</label>
+        <input type="radio" name="genero" value="feminino" required>
+        <label>Feminino</label>
+        <input type="radio" name="genero" value="lgbt" required>
+        <label>LGBTQIA+</label>
+            
+    </fieldset>
+<br>
+    <fieldset>
+        <legend><strong> Dados acadêmicos </strong></legend> <br>
+       <strong> Escolaridade: </strong> <select required>
+        <option selected disabled value=""> Selecione </option>
+        <option> Ensino Fundamental Incompleto </option>
+        <option> Ensino Fundamental Completo </option>
+        <option> Ensino Médio Incompleto </option>
+        <option> Ensino Médio Completo </option>
+        </select> <br> <br>
+        
+        <strong>Área de interesse: </strong> <input type="radio" name="curso" value="humanas" required>
+        <label>Humanas</label>
+        <input type="radio" name="curso" value="exatas" required>
+        <label>Exatas</label>
+        <input type="radio" name="curso" value="saude" required>
+        <label>Saúde</label>
+        <input type="radio" name="curso" value="tecnologia" required>
+        <label>Tecnologia</label> <br> <br>
+        <strong> <label> Conte um pouco sobre você: </label> </strong> <br>
+        <textarea rows="7" cols="40"></textarea> 
+        
+    </fieldset>
+
+    <input type="submit" value="Enviar" id="botao" onclick="cadastrofim()"> 
+
+</form>
+    <script src="script.js"> </script>
+</body>
+</html>
