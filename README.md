@@ -8,6 +8,6 @@
 
 * <h2> Utilização de "alert" em JavaScript para acesso e envio(submit) do formulário </h2>
 
-<div align="center">
+<div align="left">
  <img src="https://user-images.githubusercontent.com/102770109/170282625-559c0216-5678-4809-8b85-eebb70e177f5.png" width="200px" />
 </div>
